@@ -1,0 +1,27 @@
+{
+  "name": "tealeaf",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/tealeaf.git"
+  },
+  "author": {
+    "name": "Hugo Muller-Downing",
+    "email": "npmjs@hugo.sx",
+    "url": "hu.md"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomd/tealeaf/issues"
+  },
+  "homepage": "https://github.com/hugomd/tealeaf#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "hapi": "^17.2.0"
+  }
+}
