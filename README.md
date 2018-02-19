@@ -16,7 +16,7 @@ const tealeaf = require('tealeaf');
 
   await server.register([
 		{
-			tealeaf,
+			plugin: tealeaf,
 			options: {
 				chance: 50 // Percent
 			}
