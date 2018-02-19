@@ -1,4 +1,6 @@
 # tealeaf 🍵
+[![Build status](https://img.shields.io/travis/hugomd/tealeaf.svg)](https://travis-ci.org/hugomd/tealeaf)
+
 A Hapi 17 plugin that adds `/teapot` and has a 0.00001% chance of forcing any request to return 418.
 
 # Installation
