@@ -17,13 +17,13 @@ const tealeaf = require('tealeaf');
   const server = hapi.server({port: 3000});
 
   await server.register([
-		{
-			plugin: tealeaf,
-			options: {
-				chance: 50 // Percent
-			}
-		}
-	]);
+    {
+      plugin: tealeaf,
+      options: {
+        chance: 50 // Percent
+      }
+    }
+  ]);
 
   await server.start();
 })();
